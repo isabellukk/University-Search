@@ -1,38 +1,55 @@
+* {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+body {
+  padding-top: 4%;
+}
+
+input {
+  font-size: 0.8rem;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  padding: 3px;
+  margin: 4px;
+}
+
+input[type="text" i] {
+  font-size: 0.6rem;
+  padding: 5px 0 5px 10px;
+}
+
+input[type="submit" i] {
+  font-size: 0.5rem;
+  padding: 5px;
+}
+
+a {
+  font-size: 0.7rem;
+}
+
+h2 {
+  letter-spacing: 5px;
+  word-spacing: 2px;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-label {
+  height: 40vh;
+  background: url("https://static.vecteezy.com/system/resources/previews/002/685/820/original/classical-building-with-columns-in-continuous-one-line-drawing-style-typical-architecture-for-government-court-university-or-museum-accommodation-black-linear-design-isolated-on-white-background-vector.jpg");
+  background-size: contain;
+  background-repeat: repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-container h5 {
+  margin-top: 1px;
+  padding-left: 3%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.input-search h6 {
+  margin-bottom: 10px;
 }
