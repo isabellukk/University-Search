@@ -20,7 +20,7 @@ function UniversitySearch() {
 		});
 
 		const searchValue = inputRef.current.value;
-		navigate(`/search?` + `name=${searchValue}`);
+		navigate(`/search?` + `name=` + `${searchValue}`);
 	};
 
 	const keySubmit = event => {
