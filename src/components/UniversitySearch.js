@@ -20,7 +20,7 @@ function UniversitySearch() {
 		});
 
 		const searchValue = inputRef.current.value;
-		navigate(`/search` + `?name=${searchValue}`);
+		navigate(`/search?` + `name=${searchValue}`);
 	};
 
 	const keySubmit = event => {
@@ -28,10 +28,6 @@ function UniversitySearch() {
 			handleSubmit();
 		}
 	};
-
-	function useQuery() {
-		return new URLSearchParams(useLocation().search);
-	}
 
 	return (
 		<div className="container">
