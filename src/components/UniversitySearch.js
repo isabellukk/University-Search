@@ -49,11 +49,13 @@ function UniversitySearch() {
 					<input onClick={handleSubmit} type="submit" />
 				</div>
 				<div className="result">
-					{result.map((info, index) => (
-						<ul key={(info, index)}>
-							<a href={info.web_pages}>{info.name}</a>
-						</ul>
-					))}
+					{result.map((info, index) => {
+						return (
+							<ul key={(info, index)}>
+								<a href={info.web_pages}>{info.name}</a>
+							</ul>
+						);
+					})}
 				</div>
 			</div>
 		</div>
